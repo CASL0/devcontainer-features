@@ -1,25 +1,37 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
-    "customizations": {
-        "vscode": {
-            "settings": {
-                "json.schemas": [
-                    {
-                        "fileMatch": [
-                            "*/devcontainer-feature.json"
-                        ],
-                        "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json"
-                    }
-                ]
-            },
-            "extensions": [
-                "mads-hartmann.bash-ide-vscode"
-            ]
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "json.schemas": [
+          {
+            "fileMatch": ["*/devcontainer-feature.json"],
+            "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json"
+          }
+        ],
+        "editor.tabSize": 2,
+        "files.eol": "\n",
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[shellscript]": {
+          "editor.defaultFormatter": "foxundermoon.shell-format"
         }
-    },
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-    },
-    "remoteUser": "node",
-    "updateContentCommand": "npm install -g @devcontainers/cli"
+      },
+      "extensions": [
+        "mads-hartmann.bash-ide-vscode",
+        "foxundermoon.shell-format",
+        "timonwong.shellcheck",
+        "oderwat.indent-rainbow",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "remoteUser": "node",
+  "updateContentCommand": "npm install -g @devcontainers/cli"
 }
