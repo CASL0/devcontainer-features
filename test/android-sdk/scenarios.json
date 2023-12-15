@@ -1,0 +1,30 @@
+{
+  "install_ndk_and_cmake": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "ghcr.io/devcontainers/features/java:1": {
+        "version": "17"
+      },
+      "android-sdk": {
+        "installNdk": true,
+        "installCmake": true
+      }
+    }
+  },
+  "install_ndk_and_cmake_with_specific_version": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "ghcr.io/devcontainers/features/java:1": {
+        "version": "17"
+      },
+      "android-sdk": {
+        "platformsVersion": "10",
+        "buildToolsVersion": "19.1.0",
+        "installNdk": true,
+        "ndkVersion": "16.1.4479499",
+        "installCmake": true,
+        "cmakeVersion": "3.6.4111459"
+      }
+    }
+  }
+}
