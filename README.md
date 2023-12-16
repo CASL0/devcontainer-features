@@ -1,5 +1,10 @@
 # Dev Container Features
 
+[![CI - Test Features](https://github.com/CASL0/devcontainer-features/actions/workflows/test.yaml/badge.svg)](https://github.com/CASL0/devcontainer-features/actions/workflows/test.yaml)
+[![License](https://black.readthedocs.io/en/stable/_static/license.svg)](LICENSE)
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CASL0/devcontainer-features)
+
 カスタム Dev Container Features
 
 ## Contents
