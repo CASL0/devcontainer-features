@@ -1,7 +1,7 @@
 {
   "name": "Android SDK",
   "id": "android-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "documentationURL": "https://github.com/CASL0/devcontainer-features/tree/main/src/android-sdk",
   "description": "Installs Android SDK.",
   "options": {
