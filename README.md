@@ -19,17 +19,8 @@ Android アプリ開発に使う下記のツールをインストールします
 - NDK
 - CMake
 
-```jsonc
-{
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {
-    "ghcr.io/devcontainers/features/java:1": {
-      "version": "17"
-    },
-    "ghcr.io/casl0/devcontainer-features/android-sdk:1": {
-      "installNdk": true,
-      "installCmake": true
-    }
-  }
-}
-```
+### [`depot_tools`](src/depot_tools/README.md)
+
+Chromium 開発に使う下記のツールをインストールします。
+
+- depot_tools
