@@ -1,0 +1,10 @@
+{
+  "name": "depot_tools",
+  "id": "depot_tools",
+  "version": "1.0.0",
+  "documentationURL": "https://github.com/CASL0/devcontainer-features/tree/main/src/depot_tools",
+  "description": "Installs depot_tools.",
+  "containerEnv": {
+    "PATH": "$PATH:/usr/local/depot_tools"
+  }
+}
