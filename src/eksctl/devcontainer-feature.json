@@ -1,0 +1,7 @@
+{
+  "name": "eksctl (via curl)",
+  "id": "eksctl",
+  "version": "1.0.0",
+  "documentationURL": "https://github.com/CASL0/devcontainer-features/tree/main/src/eksctl",
+  "description": "Installs eksctl via curl."
+}
