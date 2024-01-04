@@ -24,3 +24,7 @@ Android アプリ開発に使う下記のツールをインストールします
 Chromium 開発に使う下記のツールをインストールします。
 
 - depot_tools
+
+### [`eksctl`](src/eksctl/README.md)
+
+eksctl をインストールします。
